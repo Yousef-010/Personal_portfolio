@@ -1,6 +1,6 @@
 import React from 'react'
 import Typical from 'react-typical' 
-import './Profile.css'
+import '../Profile.css'
 
 export default function Profile() {
   return (
@@ -8,7 +8,23 @@ export default function Profile() {
         <div className='profile-parent'>
             <div className='profile-details'>
 
-               
+            <div className='colz'>
+                    <div className='cloz-icon'>
+
+                        <a href='https://www.facebook.com/yousef.farwan.73/'>
+                            <i className='fa fa-facebook-square'></i>
+                        </a>
+                        <a href='https://github.com/Yousef-010'>
+                            <i className='fa fa-github-square'></i>
+                        </a>
+                        <a href='https://www.linkedin.com/in/yousef-al-farwan/'>
+                            <i className='fa fa-linkedin-square'></i>
+                        </a>
+                        <a href='https://twitter.com/YousefFarwan'>
+                            <i className='fa fa-twitter-square'></i>
+                        </a>  
+                    </div>
+                </div>  
             
             <div className='profile-details-name'>
                 <span className='primary-text'>
@@ -46,7 +62,7 @@ export default function Profile() {
                 
                 </div>
                 <div className='profile-options'>
-                    <button className='btn primary-btn '>
+                    <button className='btn primary-btn'>
                         {" "}
                         Hire Me {" "}
                     </button>
@@ -60,23 +76,7 @@ export default function Profile() {
             </div>
            
         </div>
-        <div className='colz'>
-                    <div className='cloz-icon'>
-
-                        <a href='https://www.facebook.com/yousef.farwan.73/'>
-                            <i className='fa fa-facebook-square'></i>
-                        </a>
-                        <a href='https://github.com/Yousef-010'>
-                            <i className='fa fa-github-square'></i>
-                        </a>
-                        <a href='https://www.linkedin.com/in/yousef-al-farwan/'>
-                            <i className='fa fa-linkedin-square'></i>
-                        </a>
-                        <a href='https://twitter.com/YousefFarwan'>
-                            <i className='fa fa-twitter-square'></i>
-                        </a>  
-                    </div>
-                </div>
+       
     </div>
   )
 }
