@@ -1,4 +1,33 @@
+ 
+
 .About{
-    color: red;
+    color:(--black);
     background-color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.header{
+    font-family: cursive;
+    font-size:30px;
+    text-align: center;
+    background-color: var(--light-blue-shadow) ;
+    border-radius: 5px ;
+    color: var(--white);
+    margin-top: 25px;
+    padding: 10px;
+}   
+
+.text{
+    font-size: 25px;
+    padding: 15px;
+    font-family:monospace;
+    
+}
+
+
+.scroll{
+    color: white;
+    font-size: 20px;
+     margin-left: 50px;
 }

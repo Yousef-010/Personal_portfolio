@@ -70,12 +70,24 @@ export default function Profile() {
                     <button className='btn highlighted-btn'>Get Resume</button>    
                     </a>
                 </div>
+         
             </div>
+            <div className='scroll'>
+            S <br></br>           
+            c <br></br>
+            r <br></br>
+            o  <br></br>
+            L  <br></br>
+            L <br></br>
+            ⤵  
+        </div>
             <div className='profile-picture'>
                 <div className='profile-picture-background'></div>
             </div>
            
         </div>
+
+       
        
     </div>
   )

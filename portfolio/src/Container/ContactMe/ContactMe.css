@@ -1,4 +1,6 @@
-.main{
+.contact-body{
+    color:(--black);
     background-color: white;
-    color: red;
+    text-align: center;
+    padding: 25px;
 }

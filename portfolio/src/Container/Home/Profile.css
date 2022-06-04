@@ -58,9 +58,14 @@
 }
 
 .profile-options button{
+    background-color: cornsilk;
     margin-left: 40px;
     padding: 15px;
     text-align: center;
+}
+
+.profile-options button:hover{
+    background-color: cornsilk;
 }
 
 .profile-picture{

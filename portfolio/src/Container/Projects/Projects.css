@@ -1,4 +1,14 @@
-.main{
-    background-color: white;
-    color: red;
+ 
+ 
+.p-container{
+    padding: 25px;
+}
+
+.p-g-1{
+    padding: 50px;
+}
+
+
+.p-g-2{
+    padding: 50px;
 }

@@ -13,6 +13,7 @@ export default function Home() {
         <div className='home-container'>
             <Profile />
             <Footer />
+            
             <Aboutme/>
             <Skills/>
             <Projects/>

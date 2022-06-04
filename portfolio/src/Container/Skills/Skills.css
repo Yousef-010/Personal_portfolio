@@ -1,5 +1,141 @@
-.main{
+.sklles-set-1 {
+     width: 50%;
+}
 
+.sklles-set-2 {
+     width: 50%;
+     margin-left: 50%;
+     margin-top: -238px;
+}
+
+.sklles-set-3 {
+     width: 50%;
+     margin-top: 30px;
+}
+
+.sklles-set-4 {
+     width: 50%;
+     margin-left: 50%;
+     margin-top: -158px;
+}
+.body-content {
      background-color: white;
-     color: red;
+     padding: 50px;
+     margin-top: -70px;
+     
+}
+.s-h{
+     font-size: 20px;
+     color: white;
+     background-color: var(--light-blue-shadow);
+}
+
+.g{
+     padding: 15px;
+     margin-left: 0px;
+     margin-top: 0px;
+}
+pre{
+     background-color:var(--light-blue-shadow);
+     padding: 5px;
+     border-radius: 5px;
+     font-size: 15px;
+     font-weight: bold;
+     color: white;
+
+}
+
+
+@keyframes load {
+     from {
+          width: 0%
+     }
+}
+
+@-webkit-keyframes load {
+     from {
+          width: 0%
+     }
+}
+
+@-moz-keyframes load {
+     from {
+          width: 0%
+     }
+}
+
+@-o-keyframes load {
+     from {
+          width: 0%
+     }
+}
+
+.bar {
+     background-color: #FFF;
+     padding: 2px;
+     border-radius: 15px;
+     margin-bottom: 5px;
+     font-size: 14px;
+     color: black;
+     font-weight: bold;
+ }
+
+.bar::before {
+     content: attr(data-skill);
+     background-color:#8894e5;
+     display: inline-block;
+     padding: 5px 0 5px 10px;
+     border-radius: inherit;
+     animation: load 2s 0s;
+     -webkit-animation: load 2s 0s;
+     -moz-animation: load 2s 0s;
+     -o-animation: load 2s 0s;
+}
+
+ 
+
+
+
+.bar.learning-1::before {
+     width: calc(50% - 10px);
+}
+
+.bar.learning-2::before {
+     width: calc(25% - 10px);
+}
+
+.bar.learning-3::before {
+     width: calc(60% - 10px);
+}
+
+.bar.learning-4::before {
+     width: calc(60% - 10px);
+}
+
+.bar.learning-5::before {
+     width: calc(80% - 10px);
+}
+
+.bar.learning-6::before {
+     width: calc(95% - 10px);
+}
+
+.bar.learning-7::before {
+     width: calc(95% - 10px);
+}
+
+.bar.learning-8::before {
+     width: calc(40% - 10px);
+}
+
+.bar.learning-9::before {
+     width: calc(30% - 10px);
+}
+
+.bar.learning-10::before {
+     width: calc(20% - 10px);
+}
+
+.bar.learning-11::before {
+     width: calc(80% - 10px);
 }
