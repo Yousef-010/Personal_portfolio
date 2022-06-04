@@ -1,50 +1,44 @@
-// import { Button } from 'bootstrap'
-// import React, { useState } from 'react'
-// import ProjectModal from './Project-Modal/ProjectModal'
+import Button from 'react-bootstrap/Button';
+import React, { useState } from 'react'
+ 
+import Card from 'react-bootstrap/Card'
+import { Col } from 'react-bootstrap';
 
 import './Projects.css'
- 
+import data from '../../../src/data.json'
 
-export default function Projects() {
-  // const [show,setShow] = useState(false) 
-  // const handelShow = () =>{
-  //   setShow(true)
-  // }
+
+export default function Projects({single_project}) {
+
+  const [isShowen, setisShowen] = useState(false)
+  const handelShow = () => {
+    setisShowen(true)
+  }
   return (
-    <>
-    <div className='body-content'>
-    <div className='header'>
-      <span>Projects  ➡ </span>
-    </div>
-
-        {/* DELETE THESE LIENS  */}
-        {/* <div className='row p-container'>
-    
-          <div className='p-g-1'>
-    
-          <div className='project-1'>
-          <button variant="info" onClick={handelShow} >See Details</button>
-            
-          </div>
-          
-          <div className='project-2'>Netflix_App 2</div>
-          <div className='project-3'>Netflix_App 3</div>
-    
-          </div>
-    
-          <div className='p-g-2'>
-    
-          <div className='project-1'>Netflix_App 4</div>
-          <div className='project-2'>Netflix_App 5</div>
-          <div className='project-3'>Netflix_App 6</div>
-    
-          </div>
-
-        </div> */}
-        
-    </div>
      
-    </>
+       
+     
+        <Col className='coll' md="auto" lg="4" >
+
+        
+          <Card className='thecard' style={{ width: '20rem' }}>
+            <Card.Img className='image' variant="top" src={single_project.main_image} />
+            <Card.Body> 
+              <Card.Title className='title'> {single_project.title}</Card.Title>
+              <Card.Text className='desc-text'>{single_project.description}</Card.Text>
+              <Card.Title className='sub_title'>{single_project.F_B}</Card.Title>
+              <Button variant="info" className='card-btn' >See Demo</Button>
+            </Card.Body>
+          </Card>
+          
+            
+          
+
+        </Col>
+
+     
+
+    
 
   )
 }

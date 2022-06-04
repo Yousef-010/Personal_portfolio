@@ -1,4 +1,6 @@
+
 import React from 'react'
+
 import './MainFooter.css'
 export default function MainFooter() {
   return (
@@ -8,6 +10,9 @@ export default function MainFooter() {
         <div className='header'>
         <span>footer section </span>
         </div>
+        
+
+    
          
       </div>
     

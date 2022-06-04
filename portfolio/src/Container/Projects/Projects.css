@@ -1,14 +1,46 @@
- 
- 
-.p-container{
-    padding: 25px;
-}
-
-.p-g-1{
-    padding: 50px;
+.coll{
+    padding: 15px;
+    
 }
 
 
-.p-g-2{
-    padding: 50px;
+.image{
+    padding: 3px;
+    width: 318px;
+    height:200px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.title{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    background-color: var(--light-blue-shadow );
+    border-radius: 10px;
+    font-family: cursive;
+}
+.desc-text{
+    font-style: italic;
+    padding: 5px;
+    font-weight: bold;
+}
+.sub_title{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    background-color: var(--light-blue-shadow );
+    border-radius: 10px;
+    font-family: cursive;
+    padding: 3px;
+}
+
+.card-btn{
+    align-items:center;
+    text-align: center;
+    padding: 5px;
+    width: 290px;
+    border: 2px solid black ;
+    border-radius: 15px;
+
 }

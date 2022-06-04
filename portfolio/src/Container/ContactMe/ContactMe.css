@@ -4,3 +4,32 @@
     text-align: center;
     padding: 25px;
 }
+
+
+.content{
+   padding: 25px;
+   width: 50%; 
+   float: right;
+}
+
+
+.content-row{
+    padding: 20px;
+}
+.content-f-n{
+    margin-left: -20px;
+    background-color: var(--dark-orange); 
+}
+.content-l-n{
+    margin-right: -15px;
+    background-color: var(--dark-orange); 
+
+}
+.content-email{
+    background-color: var(--dark-orange); 
+
+}
+.content-btn{
+    background-color: var(--header-hamburger-background); 
+
+}

@@ -1,0 +1,76 @@
+
+{
+    "data" :[
+    { 
+        "id":1,
+        "title":"Netflix App",
+        "main_image":"https://cdn.vox-cdn.com/thumbor/chzZk0p-Ju9by8fh9LhnH0d071Q=/0x0:2040x1360/920x613/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/70852088/acastro_211025_1777_netflix_0001.0.jpg",
+        "F_B":"Full-stack",
+        "p_languages":"React _ node.js _ Postgres _ B  ",
+        "image-1":"https://images-na.ssl-images-amazon.com/images/I/31BZetTRlaL.jpg",
+        "image-2":"https://images-na.ssl-images-amazon.com/images/I/31BZetTRlaL.jpg",
+        "image-3":"https://images-na.ssl-images-amazon.com/images/I/31BZetTRlaL.jpg",
+        "description":"this is a full stack project based on JS this is a full stack project based on JS this is a full stack project based on JS this is a full stack project based on JS  "
+    },
+       { 
+        "id":1,
+        "title":"Travel Distenation",
+        "main_image":"https://www.candorblog.com/wp-content/uploads/2017/05/travel-022.jpg?a8c73e&a8c73e",
+        "F_B":"Front-End",
+        "p_languages":"React _ react-Bootstrap ",
+        "image-1":"https://images-na.ssl-images-amazon.com/images/I/31BZetTRlaL.jpg",
+        "image-2":"https://images-na.ssl-images-amazon.com/images/I/31BZetTRlaL.jpg",
+        "image-3":"https://images-na.ssl-images-amazon.com/images/I/31BZetTRlaL.jpg",
+        "description":"this is a full stack project based on JS this is a full stack project based on JS this is a full stack project based on JS this is a full stack project based on JS  "
+    },
+    { 
+        "id":1,
+        "title":"Movie Library",
+        "main_image":"https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-n7amv0ua5c5aq1hlqcg4rslmq0-20171014234705.Medi.jpeg",
+        "F_B":"Back-End",
+        "p_languages":" node.js _ Postgres ",
+        "image-1":"https://images-na.ssl-images-amazon.com/images/I/31BZetTRlaL.jpg",
+        "image-2":"https://images-na.ssl-images-amazon.com/images/I/31BZetTRlaL.jpg",
+        "image-3":"https://images-na.ssl-images-amazon.com/images/I/31BZetTRlaL.jpg",
+        "description":"this is a full stack project based on JS this is a full stack project based on JS this is a full stack project based on JS this is a full stack project based on JS  "
+    },
+    { 
+        "id":1,
+        "title":"HR Management system",
+        "main_image":"https://i0.wp.com/www.process.st/wp-content/uploads/2022/02/What-is-HR-Management-How-Your-Employees-Can-Drive-Success-header.png?ssl=1",
+        "F_B":"Front-End",
+        "p_languages":"React _ node.js _ Postgres _  css ",
+        "image-1":"https://images-na.ssl-images-amazon.com/images/I/31BZetTRlaL.jpg",
+        "image-2":"https://images-na.ssl-images-amazon.com/images/I/31BZetTRlaL.jpg",
+        "image-3":"https://images-na.ssl-images-amazon.com/images/I/31BZetTRlaL.jpg",
+        "description":"this is a full stack project based on JS this is a full stack project based on JS this is a full stack project based on JS this is a full stack project based on JS  "
+    },
+    { 
+        "id":1,
+        "title":"Netflix App",
+        "main_image":"https://cdn.vox-cdn.com/thumbor/chzZk0p-Ju9by8fh9LhnH0d071Q=/0x0:2040x1360/920x613/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/70852088/acastro_211025_1777_netflix_0001.0.jpg",
+        "F_B":"Full-stack",
+        "p_languages":"React _ node.js _ Postgres _ B  ",
+        "image-1":"https://images-na.ssl-images-amazon.com/images/I/31BZetTRlaL.jpg",
+        "image-2":"https://images-na.ssl-images-amazon.com/images/I/31BZetTRlaL.jpg",
+        "image-3":"https://images-na.ssl-images-amazon.com/images/I/31BZetTRlaL.jpg",
+        "description":"this is a full stack project based on JS this is a full stack project based on JS this is a full stack project based on JS this is a full stack project based on JS  "
+    },
+    { 
+        "id":1,
+        "title":"HR Management system",
+        "main_image":"https://i0.wp.com/www.process.st/wp-content/uploads/2022/02/What-is-HR-Management-How-Your-Employees-Can-Drive-Success-header.png?ssl=1",
+        "F_B":"Front-End",
+        "p_languages":"React _ node.js _ Postgres _  css ",
+        "image-1":"https://images-na.ssl-images-amazon.com/images/I/31BZetTRlaL.jpg",
+        "image-2":"https://images-na.ssl-images-amazon.com/images/I/31BZetTRlaL.jpg",
+        "image-3":"https://images-na.ssl-images-amazon.com/images/I/31BZetTRlaL.jpg",
+        "description":"this is a full stack project based on JS this is a full stack project based on JS this is a full stack project based on JS this is a full stack project based on JS  "
+    }
+    
+    
+
+    ]
+}
+
+    

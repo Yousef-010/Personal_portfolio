@@ -39,6 +39,10 @@ export default function Skills() {
         </div>
 
       </div>
+      <br></br><br></br><br></br> <hr></hr> 
+      <div className='header'>
+        <span>Projects ➡ </span>
+      </div>
     </div>
   )
 }
