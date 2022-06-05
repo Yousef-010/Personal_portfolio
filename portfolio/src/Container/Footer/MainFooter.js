@@ -15,23 +15,24 @@ export default function MainFooter() {
           <div className='footer-main'>
 
               <div className='footer-title'>
-                title
+                J_CODO
               </div>
               
               <div className='footer-logo'>
-                logo
+                 
+                 
               </div>
 
               <div className='footer-button-sc-up'>
-                scroll up
+                scroll up btn
               </div>
 
               <div className='footer-links'>
-                links
+                links to ___ 
               </div>
 
               <div className='footer-copy'>
-                copyRight
+                All Rights reserved &copy; J_CODO 2022
               </div>
 
           </div>  

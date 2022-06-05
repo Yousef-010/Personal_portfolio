@@ -6,3 +6,13 @@
 } 
 
  
+.footer-logo{
+     
+    background-image: url('./logo.png');
+    width: 460px;
+    height: 150px;
+    box-shadow: 5px 5px 5px 0.5px black;
+    border: 3px solid black;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
