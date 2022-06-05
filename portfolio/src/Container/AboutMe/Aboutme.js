@@ -13,7 +13,7 @@ export default function Aboutme() {
               I always be motivated, organized and makes sure that the client is completely satisfied with my work.
               <br></br>
                I earned my Bachelor degree in Software Engineering from the University of Zarqa.
-        </div>
+        </div><br></br>
         </div>
       </div>
       

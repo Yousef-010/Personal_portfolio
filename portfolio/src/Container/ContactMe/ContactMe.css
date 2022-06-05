@@ -1,9 +1,9 @@
-.contact-body{
+ .contact-body{
     color:(--black);
     background-color: white;
     text-align: center;
     padding: 25px;
-}
+} 
 
 
 .content{
@@ -13,23 +13,164 @@
 }
 
 
-.content-row{
-    padding: 20px;
-}
-.content-f-n{
-    margin-left: -20px;
-    background-color: var(--dark-orange); 
-}
-.content-l-n{
-    margin-right: -15px;
-    background-color: var(--dark-orange); 
+ 
 
-}
-.content-email{
-    background-color: var(--dark-orange); 
+    
 
-}
-.content-btn{
-    background-color: var(--header-hamburger-background); 
 
-}
+  .container {
+    
+    flex: 0 1 700px;
+    margin: auto;
+    padding: 10px;
+  }
+   
+  .screen {
+    margin-top: 20px;
+    background:#22263b    ;
+    border-radius: 15px;
+  }
+  
+ 
+  
+  .screen-header {
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    background: var(--dark-orange);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .screen-body {
+    display: flex;
+  }
+  
+  .screen-body-item {
+    flex: 1;
+    padding: 50px;
+  }
+  
+
+  .app-title {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: var(--dark-orange);
+    font-size: 26px;
+  }
+  
+  .app-title:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 110px;
+    height: 4px;
+    background: var(--dark-orange);
+  }
+  
+  .app-contact {
+    margin-top: 70px;
+    font-size: 20px;
+    color: #888;
+  }
+  
+  .app-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .app-form-group.message {
+    margin-top: 30px;
+  }
+  
+  .app-form-group.buttons {
+    margin-bottom: 0;
+    text-align: right;
+  }
+  
+  .app-form-control {
+    width: 100%;
+    padding: 10px 5px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #ddd;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color .2s;
+  }
+  
+  .app-form-control::placeholder {
+    color: #666;
+  }
+  
+  .app-form-control:focus {
+    border-bottom-color: #ddd;
+  }
+  
+  .app-form-button {
+
+    background: cornsilk;
+    width: 150px;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    color: var(--dark-orange);
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .app-form-button:hover {
+    color: black;
+  }
+  
+ 
+  
+  .credits-link {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+ 
+  
+  @media screen and (max-width: 520px) {
+    .screen-body {
+      flex-direction: column;
+    }
+  
+    .screen-body-item.left {
+      margin-bottom: 30px;
+    }
+  
+    .app-title {
+      flex-direction: row;
+    }
+  
+    .app-title span {
+      margin-right: 12px;
+    }
+  
+    .app-title:after {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .screen-body {
+      padding: 40px;
+    }
+  
+    .screen-body-item {
+      padding: 0;
+    }
+  }
+  
+
+

@@ -27,9 +27,12 @@ export default function Home() {
                     )
                 })
             }
-            </Row>
+            
+            </Row> 
             </Container>
+            
             <ContactMe/>
+            
             <MainFooter/>
             
         </div>

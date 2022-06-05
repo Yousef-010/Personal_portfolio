@@ -1,6 +1,6 @@
 :root{
   --light-blue : #04C3FF;
-  --light-blue-shadow:  rgba(35,38,59,255);
+  --light-blue-shadow: #22263b;
   --sea-green: #0ABEAD;
   --sea-green-dark: #0CBFAE;
   --sea-green-extra-dark: #09BEAD;
@@ -18,5 +18,7 @@
   --toast-success: #0CBFAE;
   --loader-color: #0CBFAE
 }
+ 
+
 
 

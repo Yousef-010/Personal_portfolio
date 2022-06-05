@@ -33,7 +33,6 @@ export default function Projects({single_project}) {
           
             
           
-
         </Col>
 
      
